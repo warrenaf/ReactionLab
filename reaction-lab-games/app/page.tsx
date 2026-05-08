@@ -60,6 +60,8 @@ export default function HomePage() {
                                             alt={game.title}
                                             width={700}
                                             height={700}
+                                            priority={game.title === "Rapid Path"}
+                                            loading={game.title === "Rapid Path" ? "eager" : "lazy"}
                                             className="h-full w-full object-cover"
                                         />
                                     ) : (

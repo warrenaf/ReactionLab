@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     template: "%s | Reaction Lab Games",
   },
   description:
-    "Reaction Lab Games is an indie game studio creating fast, skill-based browser and cross-platform games, including Rapid Path and upcoming releases.",
+    "Welcome to Reaction Lab Games! Play Rapid Path for free now! Coming soon: Stickman-Skydive-Simulator, Swerve.",
   applicationName: "Reaction Lab Games",
   openGraph: {
     title: "Reaction Lab Games",
     description:
-      "Discover Reaction Lab Games: fast, skill-based games you can play now, plus upcoming titles in development.",
+      "Welcome to Reaction Lab Games! Play Rapid Path for free now! Coming soon: Stickman-Skydive-Simulator, Swerve.",
     siteName: "Reaction Lab Games",
     type: "website",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Reaction Lab Games",
     description:
-      "Play Rapid Path and explore upcoming games from Reaction Lab Games.",
+      "Welcome to Reaction Lab Games! Play Rapid Path for free now! Coming soon: Stickman-Skydive-Simulator, Swerve.",
     images: ["/ReactionLabLogo.png"],
   },
   icons: {

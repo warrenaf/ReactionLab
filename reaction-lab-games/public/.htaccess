@@ -1,4 +1,10 @@
 RewriteEngine On
+Options -Indexes
+
+# Serve /path/ as /path.html for Next.js static export routes
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/]+)/?$ /$1.html [L]
+
 RewriteRule ^(.*/__next\.[^/]+)\.__PAGE__\.txt$ /$1/__PAGE__.txt [L]
 
 <FilesMatch "\.framework\.js\.gz$">
